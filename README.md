@@ -23,9 +23,9 @@ git clone URL_РЕПОЗИТОРИЯ
 ## 4. Установка виртуального окружения (опционально, но рекомендуется для проектов на Python)
 Если проект написан на Python, рекомендуется использовать виртуальное окружение. Для его создания и активации выполните:
 
-```python -m venv venv```
-```source venv/bin/activate  # Для Linux/macOS```
-```venv\Scripts\activate     # Для Windows```
+python -m venv venv
+source venv/bin/activate  # Для Linux/macOS
+venv\Scripts\activate     # Для Windows
 
 
 ## 5. Установка зависимостей
